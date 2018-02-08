@@ -13,6 +13,7 @@ return [
     |
     */
 
+    'captcha'              => '验证码输入错误',
     'accepted'             => ':attribute 必须接受。',
     'active_url'           => ':attribute 不是一个有效的网址。',
     'after'                => ':attribute 必须要晚于 :date。',
@@ -119,6 +120,7 @@ return [
     'attributes'           => [
         'name'                  => '名称',
         'username'              => '用户名',
+        'code'                  => '验证码',
         'email'                 => '邮箱',
         'first_name'            => '名',
         'last_name'             => '姓',
